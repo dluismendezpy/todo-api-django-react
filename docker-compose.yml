@@ -2,6 +2,7 @@ version: "3"
 
 services:
   backend:
+    restart: always
     command: bash -c "python manage.py migrate &&
       python manage.py runserver 0.0.0.0:8000"
     build:
@@ -10,6 +11,7 @@ services:
     ports:
       - "8000:8000"
   frontend:
+    restart: always
     build:
       context: ./todo-frontend
       dockerfile: Dockerfile
