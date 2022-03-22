@@ -6,7 +6,7 @@ This app was build using django-rest-framework on the backend and Reactjs on the
 - Docker
 - Terminal 
 
-##Setup
+## Setup
 ### - Step 1: clone repo
 `git clone https://github.com/dluismendezpy/todo-api-django-react.git`
 
